@@ -9,6 +9,15 @@ package Modelo;
  *
  * @author Luis Enrique
  */
-public interface Vehiculo {
-    int gastaGas();
+public class Salvador {
+    public Vehiculo getVehiculo(String tipo)
+    {
+        Vehiculo car=null;
+        if(tipo.equals("Vehiculo"))
+        {
+            car=null;
+        }
+        return car;
+    }
+    
 }
