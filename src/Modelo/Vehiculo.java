@@ -22,7 +22,6 @@ public class Vehiculo {
     public String getPlaca() {
         return placa;
     }
-
     public void setPlaca(String placa) {
         this.placa = placa;
     }
@@ -49,6 +48,9 @@ public class Vehiculo {
 
     public void setPeso(String peso) {
         this.peso = peso;
+    }
+    public void calcular()
+    {
     }
     
 }
